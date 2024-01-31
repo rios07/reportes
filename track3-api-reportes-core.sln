@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "track3-api-reportes-core", "track3-api-reportes-core\track3-api-reportes-core.csproj", "{51C902CF-4647-4A6A-9E1F-57A2E278AEEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C902CF-4647-4A6A-9E1F-57A2E278AEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C902CF-4647-4A6A-9E1F-57A2E278AEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C902CF-4647-4A6A-9E1F-57A2E278AEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C902CF-4647-4A6A-9E1F-57A2E278AEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EE8AA4D-AEA9-414E-868D-69EF336AD217}
+	EndGlobalSection
+EndGlobal

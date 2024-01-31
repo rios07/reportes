@@ -1,0 +1,91 @@
+﻿namespace track3_api_reportes_core.Infraestructura.SecureWay.Models
+{
+    public class Target
+    {
+        public long TargetId { get; set; }
+        public string TrackerId { get; set; }
+        public Nullable<System.DateTime> RegistredAt { get; set; }
+        public string MovilId { get; set; }
+        public string MovilPlateId { get; set; }
+        public string MovilTag { get; set; }
+        public Nullable<System.DateTime> GPSLastPositionAT { get; set; }
+        public Nullable<double> GPSOdometer { get; set; }
+      //  public System.Data.Entity.Spatial.DbGeography GPSPosition { get; set; }
+        public Nullable<double> GPSLatitude { get; set; }
+        public Nullable<double> GPSLongitude { get; set; }
+        public Nullable<decimal> GPSSpeed { get; set; }
+        public Nullable<decimal> GPSDirection { get; set; }
+        public Nullable<int> GPSSatellitesLinked { get; set; }
+        public Nullable<int> GPSSatellitesUsed { get; set; }
+        public Nullable<decimal> GPSPresition { get; set; }
+        public Nullable<decimal> BatteryMainVoltage { get; set; }
+        public Nullable<decimal> BatteryBackupVoltage { get; set; }
+        public string EventCode { get; set; }
+        public Nullable<System.DateTime> EventDate { get; set; }
+        public Nullable<double> EventLatitude { get; set; }
+        public Nullable<double> EventLongitude { get; set; }
+      //  public System.Data.Entity.Spatial.DbGeography EventPosition { get; set; }
+        public Nullable<System.DateTime> INFODate { get; set; }
+        public string INFOModel { get; set; }
+        public string INFOFirmware { get; set; }
+        public string INFOImei { get; set; }
+        public string INFOImsi { get; set; }
+        public string INFOCid { get; set; }
+        public Nullable<decimal> INFOMainVoltage { get; set; }
+        public Nullable<decimal> INFOBatteryVoltage { get; set; }
+        public Nullable<int> INFOGpsSatellites { get; set; }
+        public Nullable<int> INFOGpsStatus { get; set; }
+        public Nullable<int> INFOGsmStatus { get; set; }
+        public string INFOGsmSignal { get; set; }
+        public Nullable<int> INFOGprsStatus { get; set; }
+        public string INFOGprsAPN { get; set; }
+        public string INFOGprsIp { get; set; }
+        public string INFOGprsPort { get; set; }
+        public string EventDescription { get; set; }
+        public Nullable<bool> SWActive { get; set; }
+        public Nullable<System.DateTime> SWLastSend { get; set; }
+        public Nullable<System.DateTime> LastTrackerCheck { get; set; }
+        public Nullable<long> GPSLastPositionId { get; set; }
+        public Nullable<long> CurrentRouteId { get; set; }
+        public Nullable<long> CurrentTachographId { get; set; }
+        public Nullable<bool> SecurityAccessRestricted { get; set; }
+        public Nullable<long> CurrentGeoplacemarkId { get; set; }
+        public Nullable<int> SWMinSatToTrack { get; set; }
+        public Nullable<bool> FilterAllEvents { get; set; }
+        public Nullable<bool> NoSignalEnabled { get; set; }
+        public Nullable<int> NoSignalMinutes { get; set; }
+        public Nullable<System.DateTime> NoSignalLastEvent { get; set; }
+        public Nullable<int> NoSignalTicks { get; set; }
+        public Nullable<long> TargetGroupId { get; set; }
+        public string VehicleBrand { get; set; }
+        public string VehicleModel { get; set; }
+        public string VehicleFixedPhone { get; set; }
+        public string DriverName { get; set; }
+        public string DriverFileId { get; set; }
+        public string DriverDocumentId { get; set; }
+        public string DriverPhone { get; set; }
+        public string CurrentRouteDriverPhone { get; set; }
+        public Nullable<decimal> EngineMaxVoltage { get; set; }
+        public Nullable<decimal> EngineOnVoltage { get; set; }
+        public Nullable<System.DateTime> LastSpeedAlarm { get; set; }
+        public Nullable<bool> EngineControlInstalled { get; set; }
+        public Nullable<bool> CameraInstalled { get; set; }
+        public Nullable<decimal> EventGPSSpeed { get; set; }
+        public Nullable<int> EventCriticality { get; set; }
+        public Nullable<bool> EngineControlAudibleInstalled { get; set; }
+        public Nullable<bool> EngineControlPlugInstalled { get; set; }
+        public Nullable<bool> ExternalGPSData { get; set; }
+        public Nullable<int> Color { get; set; }
+        public string TrackerTRACCommand { get; set; }
+        public Nullable<bool> CANBUSEnabled { get; set; }
+        public Nullable<bool> NoMoveEnabled { get; set; }
+        public Nullable<int> NoMoveMinutes { get; set; }
+        public Nullable<int> NoMovelTicks { get; set; }
+        public bool MobileTracker { get; set; }
+        public Nullable<System.DateTime> LastRouteAlarm { get; set; }
+        public Nullable<int> LLSLastFuelLevel { get; set; }
+        public Nullable<System.DateTime> LLSLastDate { get; set; }
+        public Nullable<int> LLSMaxFuelLevel { get; set; }
+        public Nullable<System.DateTime> LLSMaxDate { get; set; }
+    }
+}
